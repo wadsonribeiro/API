@@ -2,7 +2,9 @@
     "api_list": [
         {
             "name": "SERVER-01",
-            "url": "https://generator.ryuu.lol/api/download/<appid>",
+            "type": "split_manifest",
+            "url": "https://raw.githubusercontent.com/ST-BETA/downloads/main/<appid_path>/<appid>.json",
+            "repository_owner": "ST-BETA",
             "success_code": 200,
             "unavailable_code": 404,
             "enabled": true
